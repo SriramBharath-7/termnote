@@ -8,7 +8,7 @@ function createWindow() {
     minWidth: 640,
     minHeight: 480,
     backgroundColor: '#0a0f0c',
-    icon: path.join(__dirname, process.platform === 'win32' ? 'icon.ico' : 'icon.png'),
+    icon: path.join(__dirname, 'assets', process.platform === 'win32' ? 'icon.ico' : 'icon.png'),
     autoHideMenuBar: true,
     webPreferences: {
       contextIsolation: true,

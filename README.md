@@ -1,48 +1,196 @@
-# termnote — desktop app (Electron)
+# 📝 TermNote
 
-This is a real desktop app version of termnote — runs as its own window
-on Windows, macOS, or Linux, no browser needed. Verified to install and
-launch correctly.
+<p align="center">
+  <strong>A lightweight, terminal-styled desktop notepad built with Electron.</strong>
+</p>
 
-## Run it (development mode)
+<p align="center">
+  Write. Organize. Customize. 🚀
+</p>
 
-You need [Node.js](https://nodejs.org) installed once. Then, in this folder:
+<p align="center">
+  <img src="assets/icon-512.png" width="100" alt="TermNote Logo">
+</p>
 
+---
+
+## ✨ Features
+
+* 📝 **Markdown Editing** — Write notes using Markdown syntax.
+* 👁️ **Live Preview** — See your formatted Markdown as you write.
+* 🖼️ **Image Paste** — Quickly paste images directly into your notes.
+* 🎨 **Themes** — Customize the appearance of your workspace.
+* 🔤 **Font Customization** — Adjust the writing experience to your preference.
+* ⌨️ **Command Palette** — Quickly access app actions using the keyboard.
+* 💻 **Native Desktop App** — Runs as a standalone Electron application.
+* ⚡ **Fast & Lightweight** — Designed to stay simple and responsive.
+* 🪟 **Windows Installer** — Build and install TermNote like a normal desktop application.
+
+---
+
+## 🖥️ Preview
+
+> Add screenshots of TermNote here.
+
+<!--
+Example:
+
+![TermNote Screenshot](screenshots/main.png)
+-->
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology           | Purpose                              |
+| -------------------- | ------------------------------------ |
+| ⚡ Electron           | Desktop application framework        |
+| 🌐 HTML              | Application structure                |
+| 🎨 CSS               | Interface and styling                |
+| ⚙️ JavaScript        | Application logic                    |
+| 📦 Node.js           | Runtime and package management       |
+| 🏗️ Electron Builder | Application packaging and installers |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have:
+
+* [Node.js](https://nodejs.org/)
+* npm
+* Git
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/SriramBharath-7/termnote.git
+cd termnote
 ```
+
+### Install Dependencies
+
+```bash
 npm install
+```
+
+### Start TermNote
+
+```bash
 npm start
 ```
 
-A window opens with the app — same notepad, same features (Markdown
-preview, image paste, themes, fonts), just running natively.
+TermNote will open as a native desktop application.
 
-## Build an installable app (.exe / .dmg / .AppImage)
+---
 
-```
-npm install
+## 📦 Build the Windows Installer
+
+To create a distributable Windows installer:
+
+```bash
 npm run dist
 ```
 
-This produces, inside a new `dist/` folder:
-- **Windows** → `termnote Setup <version>.exe` (installer)
-- **macOS** → `termnote-<version>.dmg`
-- **Linux** → `termnote-<version>.AppImage`
+Electron Builder will package the application and place the generated files inside:
 
-Important: **electron-builder can only reliably build for the OS you run
-it on** — build the Windows installer on Windows, the macOS one on a Mac,
-and so on. Cross-building (e.g. making a `.dmg` from Windows) needs extra
-tooling and code-signing setup that's out of scope here.
+```text
+dist/
+```
 
-Double-click the installer it produces, and it installs like normal
-desktop software — Start Menu / Applications folder / Desktop icon
-included.
+The Windows installer can then be launched from the generated `.exe` file.
 
-## Notes
+---
 
-- Notes are saved locally on your machine via the browser storage layer
-  Electron uses under the hood — nothing leaves your device.
-- The in-app command palette (`Ctrl/Cmd+K`) still has everything: theme
-  switching, fonts, Markdown toggle, save as `.txt`/`.md`/`.html`.
-- If you want to change the icon later, replace `icon.png` (any square
-  PNG works) and `icon.ico` (Windows needs this specific format — you can
-  regenerate it from a PNG with a free tool like https://icoconvert.com).
+## 📁 Project Structure
+
+```text
+termnote/
+│
+├── 📁 assets/
+│   ├── 🖼️ icon.png
+│   ├── 🖼️ icon-512.png
+│   └── 🪟 icon.ico
+│
+├── 📄 index.html
+├── ⚙️ main.js
+├── 📦 package.json
+├── 🔒 package-lock.json
+├── 📚 README.md
+├── 📜 LICENSE
+└── 🚫 .gitignore
+```
+
+---
+
+## 🎯 Project Goals
+
+TermNote was created as a practical Electron desktop application with a focus on:
+
+* Simplicity
+* Distraction-free writing
+* Markdown workflows
+* Customization
+* Keyboard-driven productivity
+* A clean terminal-inspired interface
+
+The project also serves as a hands-on exploration of building, packaging, and distributing a real desktop application.
+
+---
+
+## 🗺️ Roadmap
+
+### Current
+
+* [x] Electron desktop application
+* [x] Markdown editing
+* [x] Markdown preview
+* [x] Image paste support
+* [x] Themes
+* [x] Font customization
+* [x] Command palette
+* [x] Custom application icons
+* [x] Windows installer
+
+### Future
+
+* [ ] Auto-save
+* [ ] Multiple notes
+* [ ] Search across notes
+* [ ] Note folders
+* [ ] Export to Markdown
+* [ ] Export to PDF
+* [ ] Keyboard shortcut customization
+* [ ] Cross-platform release improvements
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and ideas are welcome.
+
+If you find a bug or have an idea for improving TermNote, feel free to open an issue or submit a pull request.
+
+---
+
+## 📜 License
+
+TermNote is released under the **MIT License**.
+
+See [`LICENSE`](LICENSE) for details.
+
+---
+
+## 👨‍💻 Author
+
+**Sriram Bharath**
+
+Built with ☕, curiosity, and way too many terminal commands.
+
+---
+
+<p align="center">
+  <strong>📝 TermNote — Your notes, your workflow.</strong>
+</p>
