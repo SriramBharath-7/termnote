@@ -30,10 +30,11 @@
 
 ## 🖥️ Preview
 
-> Add screenshots of TermNote here.
+> Screenshots of TermNote.
 
-[TermNote Screenshot](screenshots/main.png)
-
+<p align="center">
+  <img src="screenshots/main.png" alt="TermNote Screenshot" width="900">
+</p>
 
 ---
 
