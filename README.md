@@ -177,7 +177,7 @@ If you find a bug or have an idea for improving TermNote, feel free to open an i
 
 TermNote is released under the **MIT License**.
 
-See [`LICENSE`](LICENSE) for details.
+See [📜 LICENSE](./LICENSE) for details.
 
 ---
 
