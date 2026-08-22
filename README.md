@@ -173,6 +173,12 @@ If you find a bug or have an idea for improving TermNote, feel free to open an i
 
 ---
 
+## 🤖 AI-Assisted Development
+
+TermNote was developed with assistance from AI tools, including Claude, for code generation, debugging, documentation, and development guidance.
+
+The project was directed, configured, tested, and assembled by Sriram Bharath.
+
 ## 📜 License
 
 TermNote is released under the **MIT License**.
