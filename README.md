@@ -32,11 +32,8 @@
 
 > Add screenshots of TermNote here.
 
-<!--
-Example:
-
 [TermNote Screenshot](screenshots/main.png)
--->
+
 
 ---
 
