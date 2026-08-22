@@ -12,6 +12,10 @@
   <img src="assets/icon-512.png" width="100" alt="TermNote Logo">
 </p>
 
+<video src="./assets/termnote-animation.webm" autoplay muted loop></video>
+<video src="[termnote-animation.webm](https://github.com/user-attachments/assets/fc406db6-c7b3-4fbe-ae43-f466aa123c7f)
+assets/termnote-animation.webm" autoplay muted loop></video>
+
 ---
 
 ## ✨ Features
