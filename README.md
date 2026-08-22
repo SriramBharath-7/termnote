@@ -5,11 +5,7 @@
 </p>
 
 <p align="center">
-  Write. Organize. Customize. 🚀
-</p>
-
-<p align="center">
-  <img src="assets/icon-512.png" width="100" alt="TermNote Logo">
+  <strong>Write. Organize. Customize. 🚀</strong>
 </p>
 
 
