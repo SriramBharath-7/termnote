@@ -35,7 +35,7 @@
 <!--
 Example:
 
-![TermNote Screenshot](screenshots/main.png)
+[TermNote Screenshot](screenshots/main.png)
 -->
 
 ---
