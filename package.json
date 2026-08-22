@@ -1,0 +1,40 @@
+{
+  "name": "termnote",
+  "version": "1.0.0",
+  "description": "A distraction-free, terminal-styled desktop notepad with Markdown and image paste support.",
+  "main": "main.js",
+  "author": "you",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.termnote.app",
+    "productName": "termnote",
+    "files": [
+      "main.js",
+      "index.html",
+      "icon.png",
+      "icon.ico"
+    ],
+    "mac": {
+      "icon": "icon.png",
+      "category": "public.app-category.productivity",
+      "target": ["dmg"]
+    },
+    "win": {
+      "icon": "icon.ico",
+      "target": ["nsis"]
+    },
+    "linux": {
+      "icon": "icon.png",
+      "target": ["AppImage"],
+      "category": "Utility"
+    }
+  }
+}
